@@ -17,7 +17,7 @@ function App() {
         </span>
       </Container>
       <Container>
-        <BookList arrayUno={scifi} />
+        <BookList BooksLista={scifi} />
       </Container>
       <Container fluid>
         <MyFooter />
