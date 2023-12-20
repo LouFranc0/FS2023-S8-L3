@@ -4,6 +4,7 @@ import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
 import AllTheBooks from "./components/AllTheBooks";
 import SingleBook from "./components/SingleBook";
+import scifi from "./data/scifi.json";
 import BookList from "./components/BookList";
 import { Container } from "react-bootstrap";
 
