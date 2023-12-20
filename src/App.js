@@ -3,7 +3,8 @@ import "./App.css";
 import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
 import AllTheBooks from "./components/AllTheBooks";
-
+import SingleBook from "./components/SingleBook";
+import BookList from "./components/BookList";
 import { Container } from "react-bootstrap";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         </span>
       </Container>
       <Container>
-        <AllTheBooks />
+        <BookList arrayUno={scifi} />
       </Container>
       <Container fluid>
         <MyFooter />
