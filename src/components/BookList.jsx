@@ -4,7 +4,7 @@ const BookList = (props) => {
   return (
     <div>
       {props.BooksLista.map((book, index) => (
-        <SingleBook LibroSingolo={book} key={index} />
+        <SingleBook libroSingolo={book} key={index} />
       ))}
     </div>
   );
