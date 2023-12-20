@@ -1,14 +1,14 @@
 import { Card, Col, Raw } from "react-bootstrap";
 
 const SingleBook = (props) => {
-  const { title, img } = props.book;
+  const { singleBook } = props;
 
   return (
-    <Col xs={12} md={4} key={book.asin}>
+    <Col xs={12} md={4} key={singleBook.asin}>
       <Card className="book-cover">
-        <Card.Img variant="top" src={book.img} />
+        <Card.Img variant="top" src={singleBook.img} />
         <Card.Body>
-          <Card.Title>{book.title}</Card.Title>
+          <Card.Title>{singleBook.title}</Card.Title>
         </Card.Body>
       </Card>
     </Col>
