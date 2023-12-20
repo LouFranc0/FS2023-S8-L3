@@ -1,7 +1,7 @@
 import { Navbar, Nav } from "react-bootstrap";
 
 const MyNav = () => (
-  <Navbar bg="dark" variant="dark" className="p-2">
+  <Navbar bg="primary" variant="dark" className="p-2">
     <Navbar.Brand href="http://localhost:3000/">EpiBooks</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="http://localhost:3000/">Shop</Nav.Link>
